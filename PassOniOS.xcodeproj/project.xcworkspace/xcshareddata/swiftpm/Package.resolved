@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "passencoder",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nivbp7/PassEncoder/",
+      "state" : {
+        "branch" : "master",
+        "revision" : "a2450cd10d6eef4de89cbb46a24bceb53b22441c"
+      }
+    },
+    {
+      "identity" : "swift-crypto",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-crypto.git",
+      "state" : {
+        "revision" : "33a20e650c33f6d72d822d558333f2085effa3dc",
+        "version" : "2.5.0"
+      }
+    },
+    {
+      "identity" : "zipfoundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/weichsel/ZIPFoundation.git",
+      "state" : {
+        "revision" : "43ec568034b3731101dbf7670765d671c30f54f3",
+        "version" : "0.9.16"
+      }
+    }
+  ],
+  "version" : 2
+}

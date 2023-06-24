@@ -13,6 +13,7 @@
 		E8438C492A47413200B4BF4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8438C472A47413200B4BF4B /* Main.storyboard */; };
 		E8438C4B2A47413600B4BF4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8438C4A2A47413600B4BF4B /* Assets.xcassets */; };
 		E8438C4E2A47413600B4BF4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8438C4C2A47413600B4BF4B /* LaunchScreen.storyboard */; };
+		E8438C572A47422C00B4BF4B /* PassEncoder in Frameworks */ = {isa = PBXBuildFile; productRef = E8438C562A47422C00B4BF4B /* PassEncoder */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8438C572A47422C00B4BF4B /* PassEncoder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = PassOniOS;
+			packageProductDependencies = (
+				E8438C562A47422C00B4BF4B /* PassEncoder */,
+			);
 			productName = PassOniOS;
 			productReference = E8438C3E2A47413200B4BF4B /* PassOniOS.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = E8438C352A47413200B4BF4B;
+			packageReferences = (
+				E8438C552A47422B00B4BF4B /* XCRemoteSwiftPackageReference "PassEncoder" */,
+			);
 			productRefGroup = E8438C3F2A47413200B4BF4B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -358,6 +366,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E8438C552A47422B00B4BF4B /* XCRemoteSwiftPackageReference "PassEncoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nivbp7/PassEncoder/";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E8438C562A47422C00B4BF4B /* PassEncoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8438C552A47422B00B4BF4B /* XCRemoteSwiftPackageReference "PassEncoder" */;
+			productName = PassEncoder;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E8438C362A47413200B4BF4B /* Project object */;
 }
