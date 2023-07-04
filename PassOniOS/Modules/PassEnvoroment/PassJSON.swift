@@ -13,9 +13,9 @@ struct PassJson {
         let jsonString = """
 {
   "formatVersion" : 1,
-  "passTypeIdentifier" : "",
+  "passTypeIdentifier" : "\(DevInfo.passTypeIdentifier)",
   "serialNumber" : "SN0001",
-  "teamIdentifier" : "",
+  "teamIdentifier" : "\(DevInfo.teamIdentifier)",
   "webServiceURL" : "https://example.com/passes/",
   "authenticationToken" : "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
   "barcode" : {
@@ -23,7 +23,7 @@ struct PassJson {
     "format" : "PKBarcodeFormatQR",
     "messageEncoding" : "iso-8859-1"
   },
-  "organizationName" : "NBP",
+  "organizationName" : "My org",
   "description" : "\(passInfo.description)",
   "logoText" : "\(passInfo.logoText)",
   "foregroundColor" : "rgb(0, 0, 0)",
