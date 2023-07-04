@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E806F3C82A542B050086A260 /* DevInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806F3C72A542B050086A260 /* DevInfo.swift */; };
 		E8438C422A47413200B4BF4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8438C412A47413200B4BF4B /* AppDelegate.swift */; };
 		E8438C442A47413200B4BF4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8438C432A47413200B4BF4B /* SceneDelegate.swift */; };
 		E8438C462A47413200B4BF4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8438C452A47413200B4BF4B /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E806F3C72A542B050086A260 /* DevInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevInfo.swift; sourceTree = "<group>"; };
 		E8438C3E2A47413200B4BF4B /* PassOniOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassOniOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8438C412A47413200B4BF4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8438C432A47413200B4BF4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E806F3C62A542AE70086A260 /* DevInfo */ = {
+			isa = PBXGroup;
+			children = (
+				E806F3C72A542B050086A260 /* DevInfo.swift */,
+			);
+			path = DevInfo;
+			sourceTree = "<group>";
+		};
 		E8438C352A47413200B4BF4B = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 		E8438C402A47413200B4BF4B /* PassOniOS */ = {
 			isa = PBXGroup;
 			children = (
+				E806F3C62A542AE70086A260 /* DevInfo */,
 				E8438C5C2A4742F900B4BF4B /* ViewControllers */,
 				E8438C582A47429400B4BF4B /* Modules */,
 				E8438C5B2A4742DB00B4BF4B /* StoryBoards */,
@@ -209,6 +220,7 @@
 				E8438C622A47442800B4BF4B /* EncoderInterface.swift in Sources */,
 				E8438C462A47413200B4BF4B /* ViewController.swift in Sources */,
 				E8438C652A47447E00B4BF4B /* Date.swift in Sources */,
+				E806F3C82A542B050086A260 /* DevInfo.swift in Sources */,
 				E8438C602A47441700B4BF4B /* PassInfo.swift in Sources */,
 				E8438C422A47413200B4BF4B /* AppDelegate.swift in Sources */,
 				E8438C5E2A47440600B4BF4B /* PassJSON.swift in Sources */,
